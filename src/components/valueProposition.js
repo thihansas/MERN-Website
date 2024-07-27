@@ -1,9 +1,9 @@
-import React from "react";
 import { Box, Typography } from "@mui/material";
+import React from "react";
 
 const ValueProposition = () => {
   return (
-    <Box sx={{ marginTop: "6rem", textAlign: "center", marginBottom: "2rem" }}>
+    <Box id = 'value' sx={{ marginTop: "6rem", textAlign: "center", marginBottom: "2rem" }}>
       <Typography
         sx={{
           fontSize: "3rem",

@@ -1,9 +1,9 @@
-import { Container, Box, Typography, TextField, Button } from "@mui/material";
+import { Box, Button, Container, TextField, Typography } from "@mui/material";
 import React from "react";
 
 function ContactForm() {
   return (
-    <Container
+    <Container id='contact'
       sx={{
         display: "flex",
         flexDirection: "column",

@@ -1,9 +1,9 @@
-import React from "react";
 import { Box, Typography } from "@mui/material";
+import React from "react";
 
 function AboutUs() {
   return (
-    <Box>
+    <Box id='about'>
       <Typography
         sx={{
           fontSize: "3rem",

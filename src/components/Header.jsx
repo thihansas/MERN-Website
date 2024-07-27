@@ -1,10 +1,10 @@
-import React from "react";
 import { Box, Button, Typography } from "@mui/material";
+import React from "react";
 import download from "../assets/img1.jpg";
 
 const Header = () => {
   return (
-    <Box
+    <Box id= 'home'
       sx={{
         marginTop: "6rem",
         padding: "1rem",
